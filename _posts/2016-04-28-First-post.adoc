@@ -1,0 +1,9 @@
+= First post
+:hp-tags: first post, links
+
+This is first post.
+
+=== Useful links
+How to write in AsciiDoc: +
+https://github.com/grzrobak/grzrobak.github.io/blob/master/Writers_Guide.adoc
+http://asciidoctor.org/docs/asciidoc-writers-guide/
