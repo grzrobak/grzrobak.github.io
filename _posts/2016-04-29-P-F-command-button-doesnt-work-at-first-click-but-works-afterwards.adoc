@@ -1,0 +1,8 @@
+= PF command button doesn't work at first click, but works afterwards
+:hp-tags: PF, PrimeFaces, commandButton, JSF
+
+This can happen when you enable buttons by Javascript. Check does "disabled" property is set for it. +
+ +
+Reason for this is that button is seen as disabled by backing bean, even when you enabled it in browser. After first click View part is refreshed, so backing bean updates state of "disabled" property and then button works properly. +
+ +
+For now only solution I've found is to remove "disabled" property entirely and disable buttons by JS on page load
