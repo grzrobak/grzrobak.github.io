@@ -1,0 +1,29 @@
+= Useful Git commands
+:hp-tags: Git
+
+push to origin:
+----
+git push origin remote_branch_name
+----
+pull with rebase:
+----
+git pull --rebase
+----
+soft reset to develop branch:
+----
+git reset develop
+----
+remove unstaged changes:
+----
+git checkout -- .
+----
+add only unstaged changes:
+----
+git add -u
+----
+
+add files/folders from another branch:
+----
+git checkout develop example_folder/inside/
+//this copies all files from develop branch example_folder/inside/
+----
