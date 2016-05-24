@@ -1,0 +1,4 @@
+= PF AJAX event won't update backing bean
+:hp-tags: PF, PrimeFaces, AJAX, JSF
+
+PrimeFaces AJAX events can be very tricky. Especially when you use "event" property. When event name is incorrect you won't see any error message, but then event might not execute at all. The best way is not using "event" property at all as without it PF will use default one.
